@@ -1,0 +1,15 @@
+﻿<Window x:Class="MinimalisticReportPreviewDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"  
+     xmlns:dxp="http://schemas.devexpress.com/winfx/2008/xaml/printing"     
+    Title="MainWindow">
+
+    <dxb:BarManager Name="barManager" Grid.Row="1"  AllowQuickCustomization="False" AllowCustomization="False" Loaded="barManager_Loaded">
+        <dxb:BarManager.Controllers>
+            <dxp:DocumentPreviewBarManagerController DocumentViewer="{Binding ElementName=preview, Mode=OneWay}" />
+        </dxb:BarManager.Controllers>
+        <dxp:DocumentPreviewControl Name="preview" />
+    </dxb:BarManager>
+
+</Window>
