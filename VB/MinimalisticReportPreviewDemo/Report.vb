@@ -49,7 +49,7 @@ Namespace MinimalisticReportPreviewDemo
 			' xrLabel2
 			' 
 			Me.xrLabel2.Bookmark = "Home"
-			Me.xrLabel2.Font = New System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold)
+			Me.xrLabel2.Font = New DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold)
 			Me.xrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 10.00001F)
 			Me.xrLabel2.Name = "xrLabel2"
 			Me.xrLabel2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -61,7 +61,7 @@ Namespace MinimalisticReportPreviewDemo
 			' 
 			Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.topMarginBand1, Me.bottomMarginBand1, Me.ReportHeader})
 			Me.Bookmark = "Table of Contents"
-			Me.Margins = New System.Drawing.Printing.Margins(49, 51, 48, 48)
+			Me.Margins = New DevExpress.Drawing.DXMargins(49, 51, 48, 48)
 			Me.Version = "11.1"
 			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
 

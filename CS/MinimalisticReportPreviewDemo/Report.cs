@@ -52,7 +52,7 @@ namespace MinimalisticReportPreviewDemo
             // xrLabel2
             // 
             this.xrLabel2.Bookmark = "Home";
-            this.xrLabel2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
+            this.xrLabel2.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
             this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 10.00001F);
             this.xrLabel2.Name = "xrLabel2";
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -68,7 +68,7 @@ namespace MinimalisticReportPreviewDemo
             this.bottomMarginBand1,
             this.ReportHeader});
             this.Bookmark = "Table of Contents";
-            this.Margins = new System.Drawing.Printing.Margins(49, 51, 48, 48);
+            this.Margins = new DevExpress.Drawing.DXMargins(49, 51, 48, 48);
             this.Version = "11.1";
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
